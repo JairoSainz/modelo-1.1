@@ -1,11 +1,14 @@
-import { Church, PartyPopper, Shirt, Rss } from "lucide-react";
+import baile from "./assets/baile.png";
+import iglesia from "./assets/iglesia.png";
+import saco from "./assets/saco.png";
+import vestido from "./assets/vestido.png";
 
 function Ubicaciones() {
   return (
     <div className="bg-white py-10 px-6 text-center space-y-12">
       <div>
         <div className="flex justify-center mb-2">
-          <Church className="text-[#6a1b1a] w-6 h-6" />
+          <img src={iglesia} alt="baile" className="text-[#6a1b1a] w-10 h-10" />
         </div>
         <h2 className="text-[#6a1b1a] font-semibold uppercase text-sm">MISA</h2>
         <p className="text-gray-700">Iglesia San Pedro</p>
@@ -22,7 +25,7 @@ function Ubicaciones() {
 
       <div>
         <div className="flex justify-center mb-2">
-          <PartyPopper className="text-[#6a1b1a] w-6 h-6" />
+          <img src={baile} className="w-10 h-10" />
         </div>
         <h2 className="text-[#6a1b1a] font-semibold uppercase text-sm">RECEPCIÓN</h2>
         <p className="text-gray-700">Jardín Padilla</p>
@@ -43,8 +46,8 @@ function Ubicaciones() {
         </h2>
         <p className="text-gray-700 mb-3">Formal</p>
         <div className="flex justify-center gap-6 text-[#6a1b1a]">
-          <Shirt className="w-10 h-10" />
-          <Rss className="w-10 h-10" />
+          <img src={saco} className="w-10 h-10" />
+          <img src={vestido} className="w-10 h-10" />
         </div>
       </div>
     </div>

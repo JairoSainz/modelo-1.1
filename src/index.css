@@ -1,1 +1,9 @@
+@font-face {
+    font-family: GreatVibes;
+    src: url("../src/assets/fonts/GreatVibes-Regular.ttf");
+}
 @import "tailwindcss";
+
+@theme{
+    --font-greatvibes: GreatVibes, "cursive";
+}

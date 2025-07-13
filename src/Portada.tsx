@@ -9,9 +9,9 @@ function Portada() {
       <div className="relative">
         <img src={boda} alt="boda" className="w-full h-auto object-cover" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
-          <p className="text-sm tracking-widest">NOS CASAMOS</p>
-          <h1 className="text-2xl font-bold font-[Great_Vibes]">Lucía & Iván</h1>
-          <p className="text-sm mt-1 tracking-widest">29.11.2025</p>
+          <p className="text-[16px] tracking-widest">NOS CASAMOS</p>
+          <h1 className="text-[50px] font-greatvibes">Lucía & Iván</h1>
+          <p className="text-[16px] tracking-widest">29.11.2025</p>
         </div>
       </div>
       <div className="bg-white py-6 px-4 text-center">
